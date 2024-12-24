@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0 auto;
+    width: 500px;
+}
+
+.btn {
+    display: flex;
+    margin: 0 330px;
+}
+
+button {
+    background-color: black;
+    color: aliceblue;
+    margin: 20px auto;
+    display: flex;
+    width: 180px;
+    font-weight: bold;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.2);
+    border-radius: 10px;
+    box-shadow: aliceblue;
+}

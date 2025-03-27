@@ -1,0 +1,73 @@
+.container {
+    background-color: #2b2b2b;
+    height: 95dvh;
+}
+
+.form-text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: start;
+    margin: 0px auto;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 500px;
+    font-size: 25px;
+    color: aliceblue;
+}
+
+form {
+    border-radius: 5px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    color: black;
+    font-weight: 900;
+    background-color: rgb(251, 255, 0);
+    padding: 30px;
+    font-size: 28px;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 20px;
+}
+
+input {
+    background-color: white;
+    border: none;
+    padding: 11px;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+
+.checkbox {
+    padding-top: 30px;
+    display: flex;
+    justify-content: left;
+    font-size: 18px;
+}
+.checkbox input {
+    padding: 5px;
+    margin: 0;
+    margin-right: 10px;
+    width: 30px;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    margin: 20px auto;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+}
+
+button:hover {
+    background-color: #2b2b2b;
+    cursor: pointer;
+    border-radius: 15px;
+    color: aliceblue;
+    transition: all 0.5s ease-in-out;
+}

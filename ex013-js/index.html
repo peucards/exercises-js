@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+
+        <title>ex013 - js</title>
+    </head>
+    <body>
+        <div class="container">
+            <br />
+            <br />
+            <br />
+            <h1 class="form-text">
+                Para se inscrever neste curso, Preencha o formulário abaixo.
+            </h1>
+
+            <form action="" id="formulario">
+                <div class="forms">
+                    <input
+                        type="email"
+                        placeholder="Insira aqui seu E-mail"
+                        id="emailForm"
+                        required
+                    />
+                    <label for="#emailForm">E-mail</label>
+                </div>
+                <div class="forms">
+                    <input
+                        type="tel"
+                        placeholder="Insira aqui seu Número de telefone"
+                        id="telForm"
+                        required
+                    />
+                    <label for="#telForm">Número de Telefone</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="check" />
+                    <label for="#notifyForm">
+                        Desejo receber notificações
+                    </label>
+                </div>
+                <button type="button" id="btn">Enviar</button>
+            </form>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>

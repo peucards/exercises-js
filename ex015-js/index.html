@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Formulário de Cadastro</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="title">
+            <h1>Formulário de Cadastro</h1>
+        </div>
+
+        <div class="container01">
+            <div class="container02">
+                <form action="">
+                    <label for="email">E-mail</label>
+                    <input
+                        type="email"
+                        id="emailInput"
+                        placeholder="E-mail"
+                        required
+                    />
+
+                    <label for="password">Senha</label>
+                    <input
+                        type="password"
+                        id="passwordInput"
+                        placeholder="Senha"
+                        required
+                    />
+
+                    <div class="terms">
+                        <input type="checkbox" id="terms" required />
+                        <label for="checkbox">Aceito os termos</label>
+                    </div>
+
+                    <div class="saveData">
+                        <input type="checkbox" id="saveData" />
+                        <label for="saveData">Mantenha-me conectado</label>
+                    </div>
+
+                    <button type="button" id="btn">Enviar</button>
+                </form>
+            </div>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>
